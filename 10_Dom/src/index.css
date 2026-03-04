@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    color: white;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    padding-left: 95px;
+}
+
+.contact-details{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
