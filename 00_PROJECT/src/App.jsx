@@ -12,9 +12,7 @@ const App = () => {
       setUserdata(res.data)
     } 
 
-    useEffect(()=>{
-      getData()
-    },[index])
+    useEffect(()=>{ getData() },[index])
 
     let printUserData = <h3 className='text-gray-400 text-xs absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'>loading...</h3>
     if(userdata.length>0){
